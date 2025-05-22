@@ -1,0 +1,8 @@
+prefix=/home/tiec/Desktop/lino_ws/devel
+
+Name: lino_pid
+Description: Description of lino_pid
+Version: 0.0.1
+Cflags: -I/home/tiec/Desktop/lino_ws/devel/include -I/home/tiec/Desktop/lino_ws/src/lino_pid/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure message_runtime roscpp std_msgs lino_msgs
